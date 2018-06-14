@@ -19,7 +19,6 @@ header {
 	background-color:#EC715F;
 }
 .headline{
-	line-height:12px;
 	width:1024px;
 	margin: :0 auto;
 	display:inline-block;
@@ -30,9 +29,13 @@ header {
 	height:70px;
 	width:150px;
 }
+.nav-list{
+	width:500px;
+	float: right;
+	line-height: 70px;
+}
 .nav-list-item{
 	height:35px;
-	float:right;
 	display:inline;
 	padding:30px;
 	list-style: none
@@ -382,7 +385,6 @@ header {
      color: #000000;
      border-bottom: solid 1px;
      width:103px;
-     margin:0 auto;
 }
 .tell{
      font-size: 20px;
@@ -395,7 +397,6 @@ header {
      border-bottom: solid;
      border-width: 1px;
      width: 117px;
-     margin:0 auto;
 }
 .mainsns{
      float:left;
@@ -448,6 +449,7 @@ footer{
 	font-size: 50px;
 	color:#000000;
 	display:inline-block;
+
 }
 .twitter i{
 	font-size: 50px;
@@ -475,6 +477,16 @@ footer{
 }
 .socialmedia{
 	color:#000000;
+}
+.socialmedia2{
+	text-align: left;
+	margin:0 auto;
+	width: 150px;
+}
+.contactnum3{
+	text-align: left;
+	margin:0 auto;
+	width:120px;
 }
 
 @media screen and (max-width:768px)
@@ -753,12 +765,12 @@ br{
 	width: 90%
 }
 .myskill2{
-	width: 90%;
 	padding:0 5%;
 	/*overflow-wrap: break-word;*/
 }
 .mail{
 	padding-bottom:5px;
+	text-align: center;
 }
 .mailaddress{
 	width:105px;
@@ -767,6 +779,7 @@ br{
 .tell{
 	padding-bottom:5px;
 	padding-top: 20px;
+	text-align: center;
 }
 .tellnum{
 	width:120px;
@@ -775,9 +788,13 @@ br{
 .contentsns{
 	padding-bottom: 5px;
 	padding-top: 20px;
+	margin:0 auto;
+	width:50px;
 }
 .socialmedia{
 	padding-bottom: 90px;
+	margin:0 auto;
+	width:160px;
 }
 .twitter-square i{
 	padding: 0 8px;
@@ -827,6 +844,22 @@ footer{
 #humberger div:nth-of-type(3) {
   bottom: 8px;
 }
+.headline{
+width:100px;
+float: left;
+}
+.socialmedia2{
+	width:200px;
+	margin:0 auto;
+}
+.facebook i{
+		display: inline-block;
+		margin-right: 8px;
+	}
+	.fa-twitter-square{
+		margin-right:8px;
+		display: inline-block;
+	}
 @media screen and (max-width:436px) {
 
 .myskill2{
